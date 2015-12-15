@@ -81,6 +81,12 @@
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="wwwroot\app\app.module.js" />
+    <Content Include="LICENSE" />
+    <Content Include="wwwroot\app\components\about.js" />
+    <Content Include="wwwroot\app\components\app-header.js" />
+    <Content Include="wwwroot\app\components\app.js" />
+    <Content Include="wwwroot\app\components\home.js" />
+    <Content Include="wwwroot\app\components\side-bar.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -94,7 +100,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="wwwroot\app\actions\" />
+    <Folder Include="wwwroot\app\services\" />
+    <Folder Include="wwwroot\app\stores\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
